@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Text on Image</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .image-box {
+      position: relative;
+      width: 100vw;
+      height: 67vh;
+      overflow: hidden;
+    }
+
+    .image-box img.bg-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .text-overlay {
+      position: absolute;
+      top: 39%;
+      left: 29%;
+      color: white;
+      font-size: 32px;
+      font-weight: bold;
+   
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 120px;
+      height: auto;
+    }
+
+    .buttons {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      display: flex;
+      gap: 15px;
+    }
+
+    .buttons button {
+      padding: 10px 20px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .buttons button:hover {
+      background-color: #333;
+    }
+    .label {
+        position: relative;
+        top: 197px;
+        right: 698px;
+        width: 79px;
+        height: 42px;
+        padding: 9px;
+    }
+    .label1 {
+        background-color: bisque;
+        display: flex;
+      
+        position: absolute;
+        top: 610%;
+        right: 60vw;
+        padding: 2px;
+        border: none;
+        
+    }
+  </style>
+  <script>
+let a=("My name is Saad");
+console.log(a);
+console.log(typeof a);
+let c=("null");
+console.log(c)
+console.log(typeof c);
+let f=(9);
+console.log(f);
+console.log(typeof f);
+let v=(9);
+console.log(f);
+console.log(typeof f);
+let s=(9);
+console.log(s);
+console.log(typeof f);
+
+
+  
+        
+
+    
+    </script>
+</head>
+<body>
+
+<div class="image-box">
+  <!-- Background Image -->
+  <img 
+    src="https://assets.nflxext.com/ffe/siteui/vlv3/75b0ed49-75ab-4a63-bd45-37bc2c95cb73/web/PK-en-20250623-TRIFECTA-perspective_057d7e63-2447-4b69-889f-4fa825725588_large.jpg" 
+    alt="Netflix Background" 
+    class="bg-image"
+  >
+
+  <!-- Logo -->
+  <img 
+    src="https://hipfonts.com/wp-content/uploads/2020/07/Netflix-Logo.png" 
+    alt="Netflix Logo" 
+    class="logo"
+  >
+
+  <!-- Text Overlay -->
+  <div class="text-overlay">
+    Unlimited Movies, TV Shows, and more
+  </div>
+
+  <!-- Buttons -->
+  <div class="buttons">
+    <button>Sign In</button>
+    <button>English</button>
+    <div class="label1">
+        <input type="search" name="Button" placeholder="Enter email"> 
+      
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

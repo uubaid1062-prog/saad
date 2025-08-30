@@ -1,0 +1,21 @@
+H1 {
+    font-style: italic;
+    border-bottom: 0cqmin;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+body {
+    background-color: gray;
+    border-radius: 0cqb;
+    background-image: -o-repeating-linear-gradient();
+}
+li {
+    font-size: larger;
+    font-style: italic;
+}div { 
+    background-color: burlywood;
+    font-style: italic;
+}
+a {
+    background-color: honeydew;
+}
